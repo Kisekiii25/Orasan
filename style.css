@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    box-sizing: border-box;
+    align-items: center;
+    height:100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.con{
+    border: 5px solid black;
+    border-radius: 3px;
+    text-align: end;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    padding: 50px;
+
+}
+.con h1, p{
+    margin: 0;
+}
+.con2{
+    display: inline-flex;
+    gap: 5px;
+    margin: 0;
+}
+.con2 p{
+    margin: 0;
+}
